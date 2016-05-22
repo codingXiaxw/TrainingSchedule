@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:background="#0000"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:text="返回"/>
+
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_31"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="14:00-16:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题讨论一:大学生日常思想政治教育中的信息化平台的开发与运用"
+                android:textSize="30sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主讲人: 田媛"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp">
+
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_41"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="14:00-16:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="专题讨论二:武汉大学网络思想政治教育的创新运用"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_4"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主讲人: 李勤"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_51"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="14:00-16:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题讨论三:我的绿V客——大学生日常思想政治教育中信息化资源的挖掘与利用"
+                android:textSize="30sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="主讲人: 杨灵珍"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:layout_marginTop="20dp">
+        <Button
+            android:background="#0000"
+            android:id="@+id/amClock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:text="上午"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="下午第一阶段"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:id="@+id/pmClock"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="下午第二阶段"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:id="@+id/pmClock2"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/back"
+            android:background="#0000"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:text="返回"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0000"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+                android:id="@+id/theme_11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="08:20-9:50"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:background="#0000"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#0000"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/topic_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="专题报告一:大数据助力网络意识形态治理"
+                android:background="#0000"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:id="@+id/person_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="主讲人: 张耀灿"
+                android:textColor="#FFFFFF"
+                android:background="#0000"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#0000"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/theme_21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="10:10-11:40"
+            android:textSize="30sp"
+            android:background="#0000"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#0000"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/topic_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="专题报告二:网络舆情与高校宣传思想工作创新"
+                android:background="#0000"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:id="@+id/person_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="#0000"
+                android:text="主讲人: 谢守成"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/amClock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#0000"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|center"
+            android:text="上午"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:text="下午"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:gravity="bottom|center"
+            android:id="@+id/pmClock"/>
+    </LinearLayout>
+
+</LinearLayout>

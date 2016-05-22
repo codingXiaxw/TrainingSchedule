@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:background="#0000"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:text="返回"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/theme_11"
+            android:background="#0000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="08:20-9:50"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题报告五:“互联网+”下高校学生工作的创新与实践"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主讲人: 覃红"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="10:10-11:40"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题报告六:信息化环境下高校课堂教学的秘诀"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主讲人: 吴军其"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+        <Button
+            android:background="#0000"
+            android:id="@+id/amClock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|center"
+            android:text="上午"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="下午第一阶段"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|center"
+            android:id="@+id/pmClock"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="bottom|center"
+            android:textColor="#FFFFFF"
+            android:text="下午第二阶段"
+            android:id="@+id/pmClock2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

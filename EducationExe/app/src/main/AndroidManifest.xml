@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codingboy.educationexe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ccnu4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".firstday.SecondPage"/>
+        <activity android:name=".firstday.SecondPagePm"/>
+        <activity android:name=".secondday.SecondPage2"/>
+        <activity android:name=".secondday.SecondPage2Pm"/>
+        <activity android:name=".secondday.SecondPage2Pm2"/>
+        <activity android:name=".thirdday.SecondPage3"/>
+        <activity android:name=".ShowData"/>
+        <activity android:name=".ShowPhotoActivity"/>
+        <activity android:name=".Ceremony"/>
+    </application>
+
+</manifest>

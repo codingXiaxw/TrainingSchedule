@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:background="#0000"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:text="返回"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_31"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="16:00-17:00"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:background="#0000"
+            android:id="@+id/topic_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="现场教学一:“高校学生社区网格化管理”实地观摩与操作"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_41"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="16:00-17:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+        <Button
+            android:background="#0000"
+            android:id="@+id/topic_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="现场教学二:“大学生事务大厅与I华大信息管理”实地观摩与操作"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_51"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="16:00-17:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+        <Button
+            android:background="#0000"
+            android:id="@+id/topic_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="现场教学三:“网络文化创新创业中心与网络思想政治教育空间”实地观摩与操作"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+        <Button
+            android:background="#0000"
+            android:id="@+id/amClock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="bottom|center"
+            android:textColor="#FFFFFF"
+            android:text="上午"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="bottom|center"
+            android:text="下午第一阶段"
+            android:textColor="#FFFFFF"
+            android:id="@+id/pmClock"/>
+        <Button
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:gravity="bottom|center"
+            android:text="下午第二阶段"
+            android:textColor="#FFFFFF"
+            android:id="@+id/pmClock2"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

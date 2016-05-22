@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <Button
+        android:background="#0000"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:textSize="40sp"
+        android:text="返回"/>
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="08:30-10:00"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题报告七:大数据及其应用"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="主讲人: 郭明飞"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:background="#0000"
+            android:id="@+id/theme_21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="10:10-11:40"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:background="#0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/topic_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="专题报告八:网络舆情与高校宣传思想工作创新"
+                android:layout_marginBottom="20dp"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:background="#0000"
+                android:id="@+id/person_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="主讲人: 刘宏达"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
